@@ -1,7 +1,7 @@
 
 console.log('this is working'); 
 
-const apiKey = '3feff05697754166b193f038648d67e4';
+const apiKey = '890ffb8f7e9841d681d9fc13cf59858c';
 
 async function searchRecipes(query, glutenFree, vegetarian) {
   try {
