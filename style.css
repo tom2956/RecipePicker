@@ -5,6 +5,10 @@ body {
 
 .header {
   font-family: 'Bruno Ace SC', cursive;
+  font-size: 55px;
+  font-weight: 400;
+  text-align: right;
+  color: rgb(225, 205, 205);
 }
 
 /* Center the form inputs */
@@ -62,164 +66,80 @@ header {
   justify-content: center;
 }
 
-
-/* works perfect but buttons off
-body {
-  font-family: Arial, sans-serif;
-}
-
-.header {
-  font-family: 'Bruno Ace SC', cursive;
-}
-
-
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-
-input[type="text"],
-textarea,
-select,
-input[type="date"] {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 8px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-
-header {
-  background-color: #f8f9fa;
-  padding: 20px;
-}
-
-
-.card-body {
-  background-color: #f8f9fa;
-  border: 1px solid #ccc;
-  padding: 10px;
-  position: relative;
-}
-
-
-.btn:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-
-.top {
-  background-image: url('https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_1280.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 400px;
-  padding: 150px 0;
-}
- */
-
-/*  this code works fine but the buttons are a little off 
-body {
-  font-family: Arial, sans-serif;
-}
-
-.header {
- font-family:  'Bruno Ace SC', cursive;
-}
-form {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-input[type="text"],
-textarea,
-select,
-input[type="date"] {
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  padding: 8px;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-header {
-  background-color: #f8f9fa;
-  padding: 20px;
-}
-
-.card-body {
-  background-color: #f8f9fa;
-  border: 1px solid #ccc;
-  padding: 10px;
-  position: relative;
-}
-
-.btn:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-
-.top {
-  background-image: url('https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_1280.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 300px;
-  padding: 100px 0;
-}
-
-.first-recipe {
-  margin-top: 20px;
-} */
-
-/*
-------------------------------------------------------------------------------------------------
- .top {
-  background-image: url('https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_1280.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  height: 300px; 
-  padding-top: 100px; 
-  margin-bottom: -50px; 
-  padding-bottom: 100px;
-}
-
-.first-recipe {
-  margin-top: 100px; 
-}
-
-.recipe-card {
-  border: 1px solid #ccc;
-  padding: 10px;
-  padding-top: 30px;
-  margin-bottom: 10px;
-}
-
-.recipe-card h3 {
-  margin: 0;
-}
-
-.recipe-card img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-}
-
-h3 {
-  padding: 10px;
-}
-
-.top img{
-  padding-bottom: 50px;
-}
-
+/* Adjust the position of the 'Random' button */
 #randomButton {
-  margin-top: -30px; 
-  margin-bottom: 50px; 
-} */
+  position: absolute;
+  top: 45%; /* Adjust this value to vertically center the button in its parent container */
+  left: 50%; /* Adjust this value to horizontally center the button in its parent container */
+  transform: translate(-50%, -50%); /* Center the button perfectly */
+}
+
+
+
+
+/* body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    font-family: 'Bruno Ace SC', cursive;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  input[type="text"],
+  textarea,
+  select,
+  input[type="date"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  
+  header {
+    background-color: #f8f9fa;
+    padding: 20px;
+  }
+  
+  
+  .card-body {
+    background-color: #f8f9fa;
+    border: 1px solid #ccc;
+    padding: 10px;
+    position: relative;
+  }
+  
+  
+  .btn:hover {
+    cursor: pointer;
+    opacity: 0.8;
+  }
+  
+  
+  .top {
+    background-image: url('https://cdn.pixabay.com/photo/2017/06/06/22/46/mediterranean-cuisine-2378758_1280.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    padding: 150px 0;
+  }
+  
+  
+  .input-group.mt-2.justify-content-center {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #randomButton {
+    position: relative;
+    top: -50px;
+  } */
