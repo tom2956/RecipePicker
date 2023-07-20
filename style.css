@@ -69,7 +69,7 @@ header {
 /* Adjust the position of the 'Random' button */
 #randomButton {
   position: absolute;
-  top: 45%; /* Adjust this value to vertically center the button in its parent container */
+  top: 70%; /* Adjust this value to vertically center the button in its parent container */
   left: 50%; /* Adjust this value to horizontally center the button in its parent container */
   transform: translate(-50%, -50%); /* Center the button perfectly */
 }
